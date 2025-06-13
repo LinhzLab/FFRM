@@ -65,7 +65,7 @@ tBF <- function(ta, Ba_d, F_score) {
 FFRM <- function (F_score, Y, n, K, m, d, r, num.spline, u_ini, v_ini, Ba_ini, Ba_d_ini, ta_ini, break_seq, kmax, learning_rate_Ba,learning_rate_u,learning_rate_v, end_condition, lambda = 1e-3, bd = 0.2) {
   
 
-  # F_score : latent score from Factor model and FaFPCA (FaFPCA: https://github.com/LinhzLab/FaFPCA)
+  # F_score : latent score from Factor model and FaFPCA (FaFPCA: https://github.com/LinhzLab/FaFPCA), see feature_extract.R
   # sample.len: sample sizes 
   # K: dimension of latent score from functional predictors
   # m: dimension of latent score from scalar predictors
